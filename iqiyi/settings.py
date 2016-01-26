@@ -20,10 +20,10 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_3) AppleWebKit/536.5 (
 COOKIES_ENABLED = True
 
 ITEM_PIPELINES=['iqiyi.pipelines.MongoDBPipeline', ]
-MYSQL_HOST="10.1.201.152"
-MYSQL_DBNAME="MediaCloud"
-MYSQL_USER='root'
-MYSQL_PWD='@@$iere05923*&($'
+# MYSQL_HOST="10.1.201.152"
+# MYSQL_DBNAME="MediaCloud"
+# MYSQL_USER='root'
+# MYSQL_PWD='@@$iere05923*&($'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'iqiyi (+http://www.yourdomain.com)'
